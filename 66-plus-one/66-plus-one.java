@@ -24,9 +24,6 @@ class Solution {
     public int[] fun(int[] digits){
         int[] result = new int[digits.length + 1];
         result[0] = 1;
-        for(int j = 1 ; j < result.length ;  j++){
-            result[j] = 0;
-        }
         return result;
     } 
 
